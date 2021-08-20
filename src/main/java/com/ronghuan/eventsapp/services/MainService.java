@@ -85,10 +85,9 @@ public class MainService {
 	}
 	
 	// GET ONE EVENT BY ID
-    // GET USER BY ID
-    public Event findEventById(Long event_id) {
-    	return eventRepo.findById(event_id).orElse(null);
-    }
+	public Event findEventById(Long event_id) {
+		return eventRepo.findById(event_id).orElse(null);
+	}
     
 	
 	
